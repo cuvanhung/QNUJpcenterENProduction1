@@ -1,6 +1,6 @@
 {
   "host": "localhost",
-  "port": "${process.env.PORT || 1336}",
+  "port": "${process.env.PORT || 2000}",
   "proxy": {
     "enabled": false
   },
@@ -11,6 +11,6 @@
     "enabled": false
   },
   "admin": {
-    "autoOpen": false
+    "autoOpen": true
   }
 }
